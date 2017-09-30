@@ -3,24 +3,57 @@
 	<head>
 		<meta charset = utf-8>
 		<style>
-			#button {
-				color: #37c695;
-				line-height: 37px;
-				margin: -10px auto;
-				width: 100px;
-				height: 40px; 
-				border: 1px #37c695 solid; 
-				border-radius: 40px; 
+			* {
+				font-family: Source Sans Pro;
+			}
+			@keyframes animatedBackground {
+				from { background-position: 0 0; }
+				to { background-position: 100% 0; }
+			}
+			#d1 {
+				width: 100%;
+				transition: .15s ease;
+			}
+			#d11 {
+				padding: 50px;
+				margin-left: 30vh;
+				transition: .15s ease;
+				width: 20vh;
+				text-align: center;
 				background-color: white;
-				transition: .1s;
+			}
+			#d2 {
+				width: 100%;
+				height: 300px;
+				background-image: url("https://wechslertest.com/images/stardust.png?81bd6cdf3df8d40a7eb2100d60dc1147");
+				animation: animatedBackground 40s linear infinite;
+			}
+			.grin {
+				color: #42b983;
+				font-size: 1.2em;
+				letter-spacing: 0.05em;
+				font-weight: 600;
+			}
+			#button {
+				color: #42b983;
+				margin: 0px auto;
+				width: 127px;
+				height: 44px; 
+				border: 1px #42b983 solid; 
+				border-radius: 100px;
+				transition: .15s ease;
+				font-size: 1.05em;
+				letter-spacing: 0.05em;
+				font-weight: 600;
+				line-height: 2.5em;
 			}
 			#button:hover {
-				background-color: #42f4b6;
+				background-color: #42b983;
 				color: white;
 				cursor: pointer;
 			}
 			#button:visited {
-				color: #37c695;
+				color: #42b983;
 			}
 			#_button {
 				text-decoration: none;
@@ -28,11 +61,12 @@
 		</style>
 		<script src = "scripts.js"></script>
 	</head>
-	<body>
+	<body style = "margin: 0">
+		<div id = d1 onmouseover = "r();" onmouseout = "r();"><div id = "d11" class = grin>I'LL BE GUCCI DOWN</div></div>
+		<div id = d2></div>
 		<div style = "text-align: center">
-			<div style = "font-size: 100%;" class = "gucci">ill be gucci down</div>
-			<div style = "font-size: 800%; margin-top: -20px">GUCCI</div>
-			<div style = "margin-top: 50px" onclick = "he();" id = "button">s c r e a m</div>
+			<div style = "margin-top: 15px" onclick = "he();" id = "button">GUCCI</div>
+			<img style = "margin-top: 15px" src = "https://i.imgur.com/F0MRXNq.jpg"/>
 		</div>
 	</body>
 </html>
