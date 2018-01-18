@@ -1,3 +1,3 @@
 # ayy lmao
 
-iz only gut y u heff to b med
+iz only gem y u heff to b med
