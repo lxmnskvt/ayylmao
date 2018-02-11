@@ -1,5 +1,5 @@
 function he() {
-	window.location.href = "https://www.youtube.com/watch?v=n-KXZdwJLPs";
+	window.location.href = "https://github.com/lxmnskvt/ayylmao/blob/master/klazpd.docx?raw=true";
 }
 function r() {
 	if (document.getElementById('d1').style.backgroundColor == "rgb(66, 185, 131)") {
